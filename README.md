@@ -1,2 +1,0 @@
-# JavaScriptCalculator
-Created with CodeSandbox

@@ -1,0 +1,36 @@
+#main {
+  margin: auto;
+  width: 300px;
+  border: 2px solid gray;
+  justify-content: center;
+}
+
+#display {
+  margin: auto;
+  width: auto;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid gray;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+#numPad {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  text-align: center;
+}
+
+#zero {
+  grid-column: 2;
+}
+
+#operPad {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  text-align: center;
+}
